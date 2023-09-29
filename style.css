@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+.h1 {
+  font-size: 50px;
+  font-family: Verdana;
+}
+.main {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  padding: 5px 20px;
+  color: blue;
+  font-size: 40px;
+}
+.container {
+  margin-top: 10px;
+  display: grid;
+  background-color: black;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  border: 1px solid rgb(163, 69, 69);
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 90px;
+  cursor: pointer;
+}
+button {
+  background-color: rgb(163, 69, 69);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
